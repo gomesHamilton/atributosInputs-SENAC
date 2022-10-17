@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 1 - Individual</title>
+</head>
+<body>
+    <h1>Formulário de cadastramento</h1>
+    <form action="#" method="post">
+
+    <p>Nome: <input type="text" name="Nome" value="Hamilton Gomes" disabled placeholder="Insira seu nome aqui."></p>
+    <p>Data de nascimento: </p> <input type="date" placeholder="Insira sua idade aqui.">
+    <p>Email: </p> <input type="email" placeholder="Insira seu email aqui.">
+    <p>Estado: </p> <input type="text" maxlength="10" placeholder="Insira seu Estado aqui.">
+    <p>Número de pessoas que moram com você: </p> <input type="number" min="1" max="10" placeholder="Exemplo: 4">
+    
+    <p>Sexo: <br>
+        <input type="radio" name="sexo" id="masc" value="Sexo">
+        <label for="masc">Masculino</label> <br>
+        <input type="radio" name="sexo" id="fem" value="Sexo">
+        <label for="fem">Feminino</label> <br>
+        <input type="radio" name="sexo" id="nãoDeclarar" value="Sexo">
+        <label for="nãoDeclarar">Prefiro não declarar</label></p>
+
+    <p>Tecnologias que você conhece: <br>
+        <input type="checkbox" name="tecnologias" id="html">
+        <label for="html">HTML</label><br>
+        <input type="checkbox" name="tecnologias" id="css">
+        <label for="css">CSS</label><br>
+        <input type="checkbox" name="tecnologias" id="js">
+        <label for="js">JavaScript</label><br>
+        <input type="checkbox" name="tecnologias" id="java">
+        <label for="tech">Java</label><br>
+        <input type="checkbox" name="tecnologias" id="csharp">
+        <label for="csharp">C#</label>    </p>
+
+    <button type="submit" value="Submit" name="enviar"><b>Enviar</b></button>
+
+    </form>
+</body>
+</html>
